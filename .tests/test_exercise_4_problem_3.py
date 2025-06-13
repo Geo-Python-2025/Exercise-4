@@ -7,11 +7,9 @@ import sys
 script_dir = os.path.join(os.path.dirname(__file__), '..')
 sys.path.append(script_dir)
 
-# Import the functions from temp_functions.py
-from temp_functions import fahr_to_celsius, temp_classifier
 
 class TestProblem3:
-    @points(1, "Part 1: temp_functions.py script file is not found!")
+    @points(1, "Problem 3, Part 1: temp_functions.py script file is not found!")
     def test_temp_functions_script_exists(self):
         # Define the path to the script file
         script_path = os.path.join(os.path.dirname(__file__), '..', 'temp_functions.py')
