@@ -3,7 +3,7 @@ from points_decorator import points
 import inspect
 
 class TestProblem1:
-    @points(1.5, "Problem 1, Part 1: Function 'fahr_to_celsius' is not correctly defined!")
+    @points(2, "Problem 1, Part 1: Function 'fahr_to_celsius' is not correctly defined!")
     def test_problem_1_part_1_fuction(self, problem1):
         section_data, namespace = problem1
         section = "Part 1"  # Define the section key
