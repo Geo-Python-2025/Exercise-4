@@ -19,7 +19,7 @@ class TestProblem3:
 
 
 
-    @points(2, "Problem 3, Part 2: Loop not found in source code!")
+    @points(1, "Problem 3, Part 2: Loop not found in source code!")
     def test_problem_4_part_1_loop(self, problem3):
         section_data, namespace = problem3
         section = "Part 2"  # Define the section key
@@ -34,7 +34,7 @@ class TestProblem3:
 
 
     
-    @points(2.5, "Problem 3, Part 2: Variables 'zeros, ones, twos or threes' are not correctly defined!")
+    @points(2, "Problem 3, Part 2: Variables 'zeros, ones, twos or threes' are not correctly defined!")
     def test_problem_4_part_1_values(self, problem3):
         section_data, namespace = problem3
         section = "Part 2"  # Define the section key
